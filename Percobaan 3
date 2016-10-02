@@ -23,6 +23,6 @@ void rutinInterupsi0() {
 
 void rutinInterupsi1() {
   lcd.setCursor(0, 0); lcd.print("Int1 Program");
-  lcd.setCursor(1, 1); lcd.print("Interrupt INT1");
+  lcd.setCursor(0, 1); lcd.print("Interrupt INT1");
   delay(2000);
 }
